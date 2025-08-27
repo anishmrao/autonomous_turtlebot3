@@ -52,9 +52,14 @@ sudo apt update && sudo apt install -y \
     ros-humble-turtlebot3* \
     ros-humble-gazebo-ros-pkgs
 
+# Add gazebo_models_worlds
+git clone https://github.com/leonhartyao/gazebo_models_worlds_collection.git
+# Add to bashrc
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:<path to this repo>/models
+
 # Clone and build the workspace
-mkdir -p ~/turtlebot3_ws/src
-cd ~/turtlebot3_ws
+git clone https://github.com/anishmrao/autonomous_turtlebot3.git
+cd autonomous_turtlebot3
 source /opt/ros/humble/setup.bash
 colcon build --symlink-install
 source install/setup.bash
