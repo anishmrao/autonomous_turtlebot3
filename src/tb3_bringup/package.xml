@@ -3,7 +3,7 @@
   <name>tb3_bringup</name>
   <version>0.0.1</version>
   <description>Bringup for TB3 sim + SLAM + Nav2</description>
-  <maintainer email="you@example.com">You</maintainer>
+  <maintainer email="anish01123@gmail.com">Anish</maintainer>
   <license>Apache-2.0</license>
 
   <!-- ROS 2 build system -->

@@ -2,8 +2,8 @@
 <package format="3">
   <name>tb3_explorer</name>
   <version>0.0.1</version>
-  <description>Frontier-based exploration using Nav2 Simple Commander</description>
-  <maintainer email="you@example.com">You</maintainer>
+  <description>Frontier-based exploration, semantic query support, and RRT* global planner using Nav2</description>
+  <maintainer email="anish01123@gmail.com">Anish</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake_python</buildtool_depend>
