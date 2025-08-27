@@ -69,13 +69,13 @@ In different terminals, run the following:
 ```bash
 cd autonomous_turtlebot3
 
-ros2 launch tb3_bringup sim_world.launch.py world:=$PWD$/src/tb3_bringup/worlds/office_small.world
+ros2 launch tb3_bringup sim_world.launch.py world:=$PWD/src/tb3_bringup/worlds/office_small.world
 
 ros2 launch tb3_bringup online_async_launch.py
 
 ros2 launch tb3_bringup navigation_launch.py
 
-./run_rviz.sh
+ros2 run rviz2 rviz2 -d $PWD/src/tb3_bringup/config/rviz_tb3.rviz
 
 ros2 launch tb3_bringup explore_frontier.launch.py
 ```
@@ -89,14 +89,14 @@ For full video, see `videos/s1_vid.mp4`
 
 ### 🤖 Agentic Semantic Reasoning
 
-This is a simple mock implementation of agentic semantic reasoning. An example scene graph is precomputed and stored in `src/tb3_explorer/resources/scene_graph.json`
+This is a simple *mock* implementation of agentic semantic reasoning. An example scene graph is precomputed and stored in `src/tb3_explorer/resources/scene_graph.json`
 
 In different terminals, run the following:
 
 ```bash
 cd autonomous_turtlebot3
 
-ros2 launch tb3_bringup sim_world.launch.py world:=$PWD$/src/tb3_bringup/worlds/office_small.world
+ros2 launch tb3_bringup sim_world.launch.py world:=$PWD/src/tb3_bringup/worlds/office_small.world
 
 ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=true map:=$PWD/maps/office_small_s1_t2.yaml
 
@@ -121,6 +121,9 @@ In different terminals, run the following:
 cd autonomous_turtlebot3
 
 ros2 run nav2_map_server map_server --ros-args -p yaml_filename:=$PWD/maps/office_small_s1_t2.yaml
+
+ros2 lifecycle set /map_server configure
+ros2 lifecycle set /map_server activate
 
 ros2 run rviz2 rviz2 -d $PWD/src/tb3_bringup/config/rviz_rrt.rviz
 
