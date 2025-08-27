@@ -1,0 +1,292 @@
+{
+    "world_id": "office_small",
+    "frame_id": "map",
+    "keyframes": [
+      {
+        "kf_id": "kf_00001",
+        "stamp": null,
+        "pose": {
+          "position": { "x": -3.2727922189525938, "y": 2.9839565545878157, "z": 0.0 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.60482578495414, "w": 0.7963578152153769 }
+        },
+        "image_uri": "/path/to/images/kf_00001.jpg",
+  
+        "place": {
+          "label": "pantry",
+          "aliases": ["break room", "breakroom", "kitchenette"],
+          "raw": "Pantry / Break room",
+          "conf": null
+        },
+  
+        "objects": [
+          {
+            "name": "coffee machine",
+            "category": "appliance",
+            "aliases": ["coffee maker", "espresso machine"],
+            "conf": null
+          },
+          {
+            "name": "milk carton",
+            "category": "beverage accessory",
+            "aliases": ["milk box", "dairy carton"],
+            "conf": null
+          },
+          {
+            "name": "small cup",
+            "category": "drinkware",
+            "aliases": ["cup", "espresso cup"],
+            "conf": null
+          },
+          {
+            "name": "pepsi can",
+            "category": "soft drink",
+            "aliases": ["soda can", "cola can"],
+            "conf": null
+          },
+          {
+            "name": "green bottle",
+            "category": "alcoholic beverage",
+            "aliases": ["wine bottle", "champagne bottle"],
+            "note": "likely wine/champagne",
+            "conf": null
+          },
+          {
+            "name": "glass cup",
+            "category": "drinkware",
+            "aliases": ["glass", "drinking glass"],
+            "conf": null
+          },
+          {
+            "name": "plate with pink donuts",
+            "category": "food",
+            "aliases": ["donuts", "doughnuts", "plate of donuts"],
+            "conf": null
+          },
+          {
+            "name": "fanta can",
+            "category": "soft drink",
+            "aliases": ["soda can", "orange soda"],
+            "conf": null
+          },
+          {
+            "name": "wooden table with glass runner",
+            "category": "furniture",
+            "aliases": ["table", "wooden table", "benchtop"],
+            "conf": null
+          }
+        ]
+      },
+
+      {
+        "kf_id": "kf_00002",
+        "stamp": null,
+        "pose": {
+          "position": { "x": 2.9518249258434692, "y": 3.0185788451018376, "z": 0.0 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.1937128820658997, "w": 0.9810582649984265 },
+          "frame_id": "map"
+        },
+        "image_uri": "/path/to/images/kf_00002.jpg",
+      
+        "place": {
+          "label": "cubicle",
+          "aliases": ["shared workspace", "workstation", "desk area", "office cubicle"],
+          "raw": "Cubicle / Shared workspace",
+          "conf": null
+        },
+      
+        "objects": [
+          {
+            "name": "desk with laptop (windows screen)",
+            "category": "furniture & electronics",
+            "aliases": ["work desk", "pc laptop", "windows laptop"],
+            "conf": null
+          },
+          {
+            "name": "coffee tumbler",
+            "category": "drinkware",
+            "aliases": ["travel mug", "thermal mug"],
+            "conf": null
+          },
+          {
+            "name": "office chair (black)",
+            "category": "furniture",
+            "aliases": ["office chair", "task chair"],
+            "conf": null
+          },
+          {
+            "name": "filing cabinet",
+            "category": "storage",
+            "aliases": ["file cabinet", "two-drawer cabinet"],
+            "conf": null
+          },
+          {
+            "name": "desk with laptop (mac screen)",
+            "category": "furniture & electronics",
+            "aliases": ["work desk", "macbook", "apple laptop"],
+            "conf": null
+          },
+          {
+            "name": "notebook and pen",
+            "category": "stationery",
+            "aliases": ["notepad and pen", "paper notebook"],
+            "conf": null
+          },
+          {
+            "name": "blue mug",
+            "category": "drinkware",
+            "aliases": ["coffee mug", "ceramic mug"],
+            "conf": null
+          },
+          {
+            "name": "trash bin (blue and white)",
+            "category": "utility",
+            "aliases": ["trash can", "wastebasket", "recycle bin"],
+            "conf": null
+          },
+          {
+            "name": "wall portrait/painting",
+            "category": "decoration",
+            "aliases": ["wall art", "framed picture"],
+            "conf": null
+          },
+          {
+            "name": "office chair (black and white)",
+            "category": "furniture",
+            "aliases": ["office chair", "ergonomic chair"],
+            "conf": null
+          }
+        ]
+      },
+
+      {
+        "kf_id": "kf_00003",
+        "stamp": null,
+        "pose": {
+          "position": { "x": 3.0729077136141796, "y": -3.020715743227976, "z": 0.0 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": -0.18435359267591325, "w": 0.9828599864006488 },
+          "frame_id": "map"
+        },
+        "image_uri": "/path/to/images/kf_00003.jpg",
+      
+        "place": {
+          "label": "cubicle",
+          "aliases": ["shared workspace", "shared office workspace", "workstation", "desk area", "office cubicle"],
+          "raw": "Cubicle / Shared office workspace",
+          "conf": null
+        },
+      
+        "objects": [
+          {
+            "name": "desk with monitor (dark screen, coding visible)",
+            "category": "furniture & electronics",
+            "aliases": ["work desk", "monitor", "coding monitor", "developer desk"],
+            "conf": null
+          },
+          {
+            "name": "office chair (black with white frame)",
+            "category": "furniture",
+            "aliases": ["office chair", "task chair", "ergonomic chair"],
+            "conf": null
+          },
+          {
+            "name": "desktop computer tower",
+            "category": "electronics",
+            "aliases": ["pc tower", "desktop pc", "computer case"],
+            "conf": null
+          },
+          {
+            "name": "desk with monitor (ocean wallpaper screen)",
+            "category": "furniture & electronics",
+            "aliases": ["work desk", "monitor", "desktop monitor"],
+            "conf": null
+          },
+          {
+            "name": "keyboard and mouse",
+            "category": "electronics",
+            "aliases": ["keyboard", "mouse", "peripherals"],
+            "conf": null
+          },
+          {
+            "name": "books and notebooks on desk",
+            "category": "stationery",
+            "aliases": ["books", "notebooks", "papers"],
+            "conf": null
+          },
+          {
+            "name": "bookshelf with folders, files, and books",
+            "category": "storage",
+            "aliases": ["bookcase", "shelf", "file shelf", "folder shelf"],
+            "conf": null
+          },
+          {
+            "name": "large purple book",
+            "category": "stationery",
+            "aliases": ["purple book", "large book", "textbook"],
+            "conf": null
+          }
+        ]
+      },
+      {
+        "kf_id": "kf_00004",
+        "stamp": null,
+        "pose": {
+          "position": { "x": -1.6752845490118742, "y": -0.23620527876359837, "z": 0.0 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": -0.993093032174561, "w": 0.11732957617896864 }
+        },
+        "image_uri": "/path/to/images/kf_00004.jpg",
+      
+        "place": {
+          "label": "lounge",
+          "aliases": ["waiting area", "waiting room", "lobby", "seating area"],
+          "raw": "Lounge / Waiting area",
+          "conf": null
+        },
+      
+        "objects": [
+          {
+            "name": "green sofa (3-seater)",
+            "category": "furniture",
+            "aliases": ["sofa", "couch", "three-seater"],
+            "conf": null
+          },
+          {
+            "name": "green armchairs (2)",
+            "category": "furniture",
+            "aliases": ["armchairs", "chairs", "accent chairs"],
+            "conf": null
+          },
+          {
+            "name": "coffee table with newspaper and green mug",
+            "category": "furniture & accessories",
+            "aliases": ["coffee table", "table"],
+            "conf": null
+          },
+          {
+            "name": "side tables (2)",
+            "category": "furniture",
+            "aliases": ["end tables", "side tables"],
+            "conf": null
+          },
+          {
+            "name": "red cup on right side table",
+            "category": "drinkware",
+            "aliases": ["red mug", "cup"],
+            "conf": null
+          },
+          {
+            "name": "tissue box on left side table",
+            "category": "accessories",
+            "aliases": ["tissues", "paper tissue box"],
+            "conf": null
+          },
+          {
+            "name": "wall paintings (2)",
+            "category": "decoration",
+            "aliases": ["wall art", "paintings", "framed pictures"],
+            "conf": null
+          }
+        ]
+      }
+    ]
+  }
+  
